@@ -97,7 +97,7 @@ export default {
     const apiResponse = new Response(JSON.stringify(rows), {
       headers: {
         "Content-Type": "application/json",
-        "Cache-Control": `s-maxage=30`,
+        "Cache-Control": `s-maxage=5`,
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers":
           "Origin, X-Requested-With, Content-Type, Accept",
